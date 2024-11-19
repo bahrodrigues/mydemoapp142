@@ -1,0 +1,37 @@
+Teste Mobile
+--> testes de aplicativos para celulares e tablets
+--> também de aplicativos para relogio, central de midia, smart tv
+
+Vamos usar o framework Appium
+- funciona para android e IOS
+- é uma vertente do selenium webdriver voltaada para teste de Appium
+- multiplos sistemas operacionais
+- multiplas linguagens de programação:
+    - java
+    - javascript
+    - python
+    - C#
+
+Tipos de aplicativos
+- WebApp (site disfarçado de app)
+- Nativo - um projeto separado para android e outro para IOS
+- Hibrido - um projeto gera apps para android e IOS
+
+Requsitos de Hardware
+- Processador Intel i5 ou i7
+- Familia do processados 12-->2022, 13--> 2023, 14-->2024
+- Memoria RAM: 8 Gb --> 16 Gb
+- Placa de video offboard
+- Disco Rigido: SSD (pelo menos o boot)
+
+Ambiente de teste em nuvem = Device Farms
+- SauceLabs --> criar uma conta 
+- BrowserStack
+- Perfecto
+
+Roteiro de inspeção
+- Instalar o app alvo e o Apk Info
+- usar o Apk Info para descobrir:
+appPackage: com.saucelabs.mydemoapp.android
+appActivity: com.saucelabs.mydemoapp.android.view.activities.SplashActivity
+ou com.saucelabs.mydemoapp.android.view.activities.MainActivity
